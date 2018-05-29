@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		18509D74BD97AAF5D037AC56 /* Pods_BP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5744821587F5CBD6A67E31 /* Pods_BP.framework */; };
 		88A6721D20BC4BD0008039DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6721C20BC4BD0008039DD /* AppDelegate.swift */; };
-		88A6721F20BC4BD0008039DD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6721E20BC4BD0008039DD /* FirstViewController.swift */; };
-		88A6722120BC4BD0008039DD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6722020BC4BD0008039DD /* SecondViewController.swift */; };
+		88A6721F20BC4BD0008039DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6721E20BC4BD0008039DD /* FeedVC.swift */; };
+		88A6722120BC4BD0008039DD /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6722020BC4BD0008039DD /* GroupsVC.swift */; };
 		88A6722420BC4BD0008039DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A6722220BC4BD0008039DD /* Main.storyboard */; };
 		88A6722620BC4BD0008039DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A6722520BC4BD0008039DD /* Assets.xcassets */; };
 		88A6722920BC4BD0008039DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A6722720BC4BD0008039DD /* LaunchScreen.storyboard */; };
@@ -28,8 +28,8 @@
 		7BA4B1B5209233699E409B1D /* Pods-BP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BP/Pods-BP.debug.xcconfig"; sourceTree = "<group>"; };
 		88A6721920BC4BD0008039DD /* BP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A6721C20BC4BD0008039DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88A6721E20BC4BD0008039DD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		88A6722020BC4BD0008039DD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		88A6721E20BC4BD0008039DD /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		88A6722020BC4BD0008039DD /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		88A6722320BC4BD0008039DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88A6722520BC4BD0008039DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88A6722820BC4BD0008039DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				88A6723920BCD9F6008039DD /* AuthVC.swift */,
-				88A6721E20BC4BD0008039DD /* FirstViewController.swift */,
-				88A6722020BC4BD0008039DD /* SecondViewController.swift */,
+				88A6721E20BC4BD0008039DD /* FeedVC.swift */,
+				88A6722020BC4BD0008039DD /* GroupsVC.swift */,
 				88A6723B20BCDD64008039DD /* LoginVC.swift */,
 			);
 			path = Controller;
@@ -300,13 +300,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A6723A20BCD9F6008039DD /* AuthVC.swift in Sources */,
-				88A6722120BC4BD0008039DD /* SecondViewController.swift in Sources */,
+				88A6722120BC4BD0008039DD /* GroupsVC.swift in Sources */,
 				88A6723C20BCDD64008039DD /* LoginVC.swift in Sources */,
 				88A6724220BCEA0F008039DD /* AuthService.swift in Sources */,
 				88A6721D20BC4BD0008039DD /* AppDelegate.swift in Sources */,
 				88A6724520BCEB4C008039DD /* Constants.swift in Sources */,
 				88A6724020BCE74F008039DD /* ShadowView.swift in Sources */,
-				88A6721F20BC4BD0008039DD /* FirstViewController.swift in Sources */,
+				88A6721F20BC4BD0008039DD /* FeedVC.swift in Sources */,
 				88A6723E20BCDE91008039DD /* InsetTextField.swift in Sources */,
 				88A6723820BCC5F3008039DD /* DataService.swift in Sources */,
 			);
