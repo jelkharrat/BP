@@ -20,6 +20,8 @@
 		88A6723C20BCDD64008039DD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6723B20BCDD64008039DD /* LoginVC.swift */; };
 		88A6723E20BCDE91008039DD /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6723D20BCDE91008039DD /* InsetTextField.swift */; };
 		88A6724020BCE74F008039DD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6723F20BCE74F008039DD /* ShadowView.swift */; };
+		88A6724220BCEA0F008039DD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6724120BCEA0F008039DD /* AuthService.swift */; };
+		88A6724520BCEB4C008039DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6724420BCEB4C008039DD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		88A6723B20BCDD64008039DD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		88A6723D20BCDE91008039DD /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		88A6723F20BCE74F008039DD /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		88A6724120BCEA0F008039DD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		88A6724420BCEB4C008039DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8C5744821587F5CBD6A67E31 /* Pods_BP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47BC5B83CF56C9A532B34B4 /* Pods-BP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BP.release.xcconfig"; path = "Pods/Target Support Files/Pods-BP/Pods-BP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +87,7 @@
 		88A6721B20BC4BD0008039DD /* BP */ = {
 			isa = PBXGroup;
 			children = (
+				88A6724320BCEB30008039DD /* Utilities */,
 				88A6723420BC4C55008039DD /* Services */,
 				88A6723320BC4C39008039DD /* Extensions */,
 				88A6723220BC4C28008039DD /* Model */,
@@ -136,8 +141,17 @@
 			isa = PBXGroup;
 			children = (
 				88A6723720BCC5F3008039DD /* DataService.swift */,
+				88A6724120BCEA0F008039DD /* AuthService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		88A6724320BCEB30008039DD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				88A6724420BCEB4C008039DD /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		A93F2BA4323ECA8D272AE7EC /* Pods */ = {
@@ -288,7 +302,9 @@
 				88A6723A20BCD9F6008039DD /* AuthVC.swift in Sources */,
 				88A6722120BC4BD0008039DD /* SecondViewController.swift in Sources */,
 				88A6723C20BCDD64008039DD /* LoginVC.swift in Sources */,
+				88A6724220BCEA0F008039DD /* AuthService.swift in Sources */,
 				88A6721D20BC4BD0008039DD /* AppDelegate.swift in Sources */,
+				88A6724520BCEB4C008039DD /* Constants.swift in Sources */,
 				88A6724020BCE74F008039DD /* ShadowView.swift in Sources */,
 				88A6721F20BC4BD0008039DD /* FirstViewController.swift in Sources */,
 				88A6723E20BCDE91008039DD /* InsetTextField.swift in Sources */,
