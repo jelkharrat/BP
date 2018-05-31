@@ -22,6 +22,7 @@
 		88A6724020BCE74F008039DD /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6723F20BCE74F008039DD /* ShadowView.swift */; };
 		88A6724220BCEA0F008039DD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6724120BCEA0F008039DD /* AuthService.swift */; };
 		88A6724520BCEB4C008039DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6724420BCEB4C008039DD /* Constants.swift */; };
+		88A6724720C0C0A5008039DD /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6724620C0C0A5008039DD /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		88A6723F20BCE74F008039DD /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		88A6724120BCEA0F008039DD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		88A6724420BCEB4C008039DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		88A6724620C0C0A5008039DD /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		8C5744821587F5CBD6A67E31 /* Pods_BP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47BC5B83CF56C9A532B34B4 /* Pods-BP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BP.release.xcconfig"; path = "Pods/Target Support Files/Pods-BP/Pods-BP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 				88A6721E20BC4BD0008039DD /* FeedVC.swift */,
 				88A6722020BC4BD0008039DD /* GroupsVC.swift */,
 				88A6723B20BCDD64008039DD /* LoginVC.swift */,
+				88A6724620C0C0A5008039DD /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				88A6721D20BC4BD0008039DD /* AppDelegate.swift in Sources */,
 				88A6724520BCEB4C008039DD /* Constants.swift in Sources */,
 				88A6724020BCE74F008039DD /* ShadowView.swift in Sources */,
+				88A6724720C0C0A5008039DD /* MeVC.swift in Sources */,
 				88A6721F20BC4BD0008039DD /* FeedVC.swift in Sources */,
 				88A6723E20BCDE91008039DD /* InsetTextField.swift in Sources */,
 				88A6723820BCC5F3008039DD /* DataService.swift in Sources */,
