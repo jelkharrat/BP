@@ -12,6 +12,7 @@ class Message {
     private var _content: String
     private var _senderId: String
     
+    //the public variable can be accesssed by the private value.
     var content: String{
         return _content
     }
@@ -20,6 +21,7 @@ class Message {
         return _senderId
     }
     
+    //only through initializers can the private variable value be set
     init(content: String, senderId: String) {
         self._content = content
         self._senderId = senderId

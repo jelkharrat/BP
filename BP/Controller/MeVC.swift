@@ -24,6 +24,7 @@ class MeVC: UIViewController {
 
     }
     
+    //actionsheet is log out styled pop up screen
     @IBAction func signOutButtonWasPressed(_ sender: Any) {
         let logOutPopUp = UIAlertController(title: "Log out?", message: "Are you sure you want to log out?", preferredStyle: .actionSheet)
         let logOutAction = UIAlertAction(title: "Log out??", style: .destructive) { (buttonTapped) in
@@ -33,6 +34,7 @@ class MeVC: UIViewController {
                 let authVC = self.storyboard?.instantiateViewController(withIdentifier: "AuthVC") as? AuthVC
                 self.present(authVC!, animated: true, completion: nil)
             } catch {
+                //do catch block automatically catches a variable called error and can present it by using print
                 print(error)
             }
         }

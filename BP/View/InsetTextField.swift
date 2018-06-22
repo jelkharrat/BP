@@ -10,6 +10,9 @@ import UIKit
 
 class InsetTextField: UITextField {
 
+    //How much offset we want from the rect
+    //private var textRectOffset: CGFloat = 20
+    //used to generate space around an element's content
     private var padding = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 0)
     
     override func awakeFromNib() {
@@ -18,10 +21,12 @@ class InsetTextField: UITextField {
         super.awakeFromNib()
     }
     
+    //looking at text w out editing it
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         return UIEdgeInsetsInsetRect(bounds, padding)
     }
     
+    //when actually typing
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
         return UIEdgeInsetsInsetRect(bounds, padding)
 

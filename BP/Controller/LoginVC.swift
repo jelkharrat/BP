@@ -6,6 +6,9 @@
 //  Copyright © 2018 practice. All rights reserved.
 //
 
+//This VC has a storyboard ID and will be called upon in other VCs
+
+
 import UIKit
 
 class LoginVC: UIViewController {
