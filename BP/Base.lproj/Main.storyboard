@@ -276,6 +276,9 @@
                                             <constraint firstAttribute="height" constant="30" id="rDP-ZG-8ZL"/>
                                         </constraints>
                                         <state key="normal" image="logoutIcon"/>
+                                        <connections>
+                                            <action selector="signOutButtonWasPressed:" destination="voH-Z9-ffJ" eventType="touchUpInside" id="MX1-D3-PTA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -351,7 +354,6 @@
                     <connections>
                         <outlet property="emailLbl" destination="Ov1-gu-q3h" id="J4c-Gy-udr"/>
                         <outlet property="profileImage" destination="1z5-mO-Jvb" id="OYP-JU-3Ys"/>
-                        <outlet property="signOutButtonWasPressed" destination="B7p-8P-zrv" id="7jG-uy-HO5"/>
                         <outlet property="tableView" destination="c3d-mc-kJb" id="DVu-g4-gOC"/>
                     </connections>
                 </viewController>
